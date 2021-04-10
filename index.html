@@ -138,9 +138,119 @@
                 </audio>
 
             </section>
+
         </main>
         
         <footer>
+            <form>
+                <fieldset>             
+                    <label for="Date">Select the date for the Journal Entry:</label>
+                    <input type="date" id="Date" name="Date">
+
+                    <br>
+
+                    <p>What will you include in this entry?</p>
+
+
+                    <input type="checkbox" id="Tasks" name="Tasks">
+                    <label for="Tasks">Todo's</label>
+
+                    <br>
+
+                    <input type="checkbox" id="Recap" name="Recap">
+                    <label for="Recap">Recap</label>
+
+                    <br> 
+
+                    <input type="checkbox" id="images" name="images">
+                    <label for="images">Images</label>
+
+                    <br>
+
+                    <input type="checkbox" id="videos" name="videos">
+                    <label for="videos">Videos</label>
+
+                    <br>
+
+                    <input type="checkbox" id="audio" name="audio">
+                    <label for="audio">Audio</label>
+
+                    <br>
+
+                    <p>What day of the week is it?</p>
+                    
+                    <input type="radio" id="Monday" name="Day">
+                    <label for="Monday">Monday</label>
+
+                    <input type="radio" id="Tuesday" name="Day">
+                    <label for="Tuesday">Tuesday</label>
+
+                    <input type="radio" id="Wednesday" name="Day">
+                    <label for="Wednesday">Wednesday</label>
+
+                    <input type="radio" id="Thursday" name="Day">
+                    <label for="Thursday">Thursday</label>
+
+                    <input type="radio" id="Friday" name="Day">
+                    <label for="Friday">Friday</label>
+
+                    <input type="radio" id="Saturday" name="Day">
+                    <label for="Saturday">Saturday</label>
+
+                    <input type="radio" id="Sunday" name="Day">
+                    <label for="Sunday">Sunday</label>
+
+                    <p>What would you like to title this entry?</p>
+
+                    <input type="text" id="title" name="title">
+
+                    <br> <br> <br>
+
+                    <label for="recap"> Enter a summary for the day!</label>
+
+                    <br>
+
+                    <textarea id="recap" name="recap" rows="5" cols="33">Enter what you'd like in your recap...
+                    </textarea>
+
+                    <br><br><br>
+
+                    <label for="Entries">How many tasks do you want to inlude:</label>
+                    <input list="NumEntries" id="Entries" name="Entries" />
+                    
+                    <datalist id="NumEntries">
+                        <option value="One">
+                        <option value="Two">
+                        <option value="Three">
+                        <option value="Four">
+                        <option value="Five">
+                        <option value="Six">
+                        <option value="Seven">    
+                        <option value="Eight">
+                        <option value="Nine">
+                        <option value="Ten">
+                    </datalist>
+
+                    <br><br><br>
+
+                    <label for="feeling">How are you feeling:</label>
+
+                    <select name="feels" id="feeling">
+                        <option value="">--Please choose an option--</option>
+                        <option value="awesome">Awesome</option>
+                        <option value="aight">Aight</option>
+                        <option value="better">Been Better</option>
+                        <option value="sad">Sad</option>
+                        <option value="lazy">Lazy</option>
+                        <option value="tired">Tired</option>
+                    </select>
+                   
+                    <br><br><br>
+                    <button type="button">Done</button>
+                </fieldset>
+
+
+              </form>
 
         </footer>
 
