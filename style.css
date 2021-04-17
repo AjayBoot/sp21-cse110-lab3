@@ -1,0 +1,69 @@
+
+
+
+body {
+
+    background-color:rgb(34, 33, 33);
+}
+
+h1 {
+
+    color:hsl(0, 62%, 33%);
+
+    margin-top: 1cm;
+    margin-right: 10mm;
+    margin-bottom: 40Q;
+    margin-left: 0cm;
+
+    padding-top: 2mm;
+    padding-right: 2mm;
+    padding-bottom: 2mm;
+    padding-left: 0mm;
+
+    border-style: inset;
+    border-color: rgb(139, 69, 69);
+    border-width: 8px;
+    border-radius: 100px;
+
+    display: inline-block;
+}
+
+h2 {
+
+    color: rgb(110, 89, 30);
+    margin: 1vw 1vh 1vmin 1vmax;
+    padding: 1mm 1mm 1mm 0mm;
+}
+
+h3 {
+
+    color:purple;
+    margin: auto;
+    padding: 1mm 1mm 1mm 0mm;
+}
+
+ol {
+
+    color:rgb(160, 160, 160);
+    text-decoration: dotted underline;
+    text-align: center;
+}
+
+form {
+
+    color:rgb(160, 160, 160);
+    height: 20cm;
+    width: 20cm;
+
+    max-width: 30cm;
+    min-width: 15cm;
+}
+
+p {
+    color:rgb(160, 160, 160);
+}
+
+audio {
+
+    display: block;
+}
