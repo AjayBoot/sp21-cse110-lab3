@@ -34,7 +34,6 @@ h1 {
 
 h2 {
 
-    color: rgb(110, 89, 30);
     margin: 1vw 1vh 1vmin 1vmax;
     padding: 1mm 1mm 1mm 0mm;
 
@@ -43,7 +42,6 @@ h2 {
 
 h3 {
 
-    color:purple;
     margin: auto;
     padding: 1mm 1mm 1mm 0mm;
 }
@@ -94,3 +92,53 @@ button:active {
       background: rgb(156, 0, 104);
     }
   }  
+
+#Day2{
+
+    color:rgb(41, 41, 160);
+}
+
+*.Day3{
+
+    color:darkolivegreen;
+}
+
+a[href]{
+
+    color:rgb(148, 150, 20);
+}
+
+a[href="#Day1"]{
+
+    color: rgb(18, 95, 25);
+}
+
+h2,h3 {
+
+    color:rgb(17, 91, 126);
+}
+
+form p {
+
+    color: rgb(41, 104, 62);
+}
+
+ol > li {
+
+    color: rgb(103, 116, 56); 
+}
+
+h1 ~ p {
+
+    color: rgb(91, 63, 214); 
+}
+
+h2 + ol {
+
+    color: rgb(200, 255, 1);
+}
+
+h1.Day1 {
+
+    color: red;
+}
