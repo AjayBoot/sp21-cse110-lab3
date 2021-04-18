@@ -25,7 +25,11 @@ h1 {
     border-width: 8px;
     border-radius: 100px;
 
-    display: inline-block;
+    display: grid;
+
+    grid-template-columns: 10px 10px auto 10px 10px;
+    grid-template-rows: 10% 1mm auto;
+    justify-items: start;
 }
 
 h2 {
@@ -33,6 +37,8 @@ h2 {
     color: rgb(110, 89, 30);
     margin: 1vw 1vh 1vmin 1vmax;
     padding: 1mm 1mm 1mm 0mm;
+
+    display: inline-block;
 }
 
 h3 {
@@ -47,6 +53,7 @@ ol {
     color:rgb(160, 160, 160);
     text-decoration: dotted underline;
     text-align: center;
+    position: relative;
 }
 
 form {
@@ -57,13 +64,33 @@ form {
 
     max-width: 30cm;
     min-width: 15cm;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
 }
 
 p {
+    font-family: 'Karantina', cursive, 'Dela Gothic One', cursive;;
     color:rgb(160, 160, 160);
+    position: sticky;
 }
 
-audio {
+button:hover {
 
-    display: block;
+    color:blue;
 }
+
+button:active {
+
+    color:crimson;
+}
+
+
+/* change background color when window size smaller than 35rem*/
+@media (max-width: 35rem) {
+    body {
+      background: rgb(156, 0, 104);
+    }
+  }  
